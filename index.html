@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>스톤헨지 | STONEHENgE</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"> -->
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">    개발이 끝나면 IE-Edge(최신 익스플로러 버전으로 바꿔라)로 바꾸면 됨 -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->   <!-- 모바일에서 잘보이려면 주석처리 해야함(반응형) -->
+    <meta name="Title" content="StoneHenge Jewelry">
+    <meta name="Publisher" content="임소현">
+    <meta name="Author-date" content="2020-11-02">
+    <meta name="Author" content="StoneHenge">
+    <meta name="Copyright" content="임소현">
+    <meta name="Keywords" content="웹표준, 웹접근성, StoneHenge, 스톤헨지, StoneHenge Jewelry">
+    <meta name="Description" content="스톤헨지 주얼리는 ‘Beautiful Moments’라는 슬로건 아래 클래식하고 우아한 브랜드 이미지를 선보입니다.">
+    <meta name="Robots" content="index,follow">
+    
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./img/home.png">
+    <link rel="apple-touch-icon" href="./img/home.png">
+
+    <!-- 오픈 아이콘 -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <!-- 글꼴 -->
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">  
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+  
+
+    <!-- 오픈소스 -->   
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>    
+    <script src="./js/lib/jquery.touchSwipe.js"></script>
+    <script src="./js/lib/prefixfree.min.js"></script>
+    <script src="./js/lib/jquery.easing.1.3.js"></script>
+
+
+  
+<!-- ★★ -->
+    <!-- 조건 주석문 익스프롤러 하위 IE9 IE8 IE7 폴리필 -->
+    <!-- 스크립트 스타일 -->
+    
+    <!--[if lte IE 9]>
+        <script src="./js/lib/IE9.js"></script>
+    <![endif]-->
+    
+    <!--[if lte IE 8]>
+        <script src="./js/lib/html5shiv.min.js"></script>    
+        <script src="./js/lib/jqPIE.js"></script>    
+        <script src="./js/lib/PIE.js"></script> 
+        <link rel="stylesheet" type="text/css" href="./css/ie8.css">   
+    <![endif]-->
+    
+    <!--[if lte IE 7]>    
+       <link rel="stylesheet" type="text/css" href="./css/ie7.css">
+    <![endif]-->    
+    
+
+</head>
+<body>
+
+    
+
+<ul id="skip">
+    <li><a href="#header" title="메뉴바로가기">메뉴바로가기</a></li>
+    <li><a href="#main" title="메인바로가기">메인바로가기</a></li>
+    <li><a href="#footer" title="하단바로가기">하단바로가기</a></li>
+</ul>
+
+<div id="wrap">
+    <header id="header">
+            <div class="wrap">
+                <ul class="fixedclear">
+                    <li class="logo"> 
+                         <h1><a href="#" title="logo"><img src="./img/logo3-r.png" alt="logo"></a></h1>
+                    </li>
+                    <li>
+                        <ul>
+                            <li> 
+                                <aside id="aside">
+                                    <div>
+                                        <ul class="language-btn">
+                                            <li class="world-btn"><a href="#" title="language-btn">LANGUAGE ∨</a></li>
+                                            <li class="world"><a href="#"><img src="./img/kro.png" alt="kro">KR</a></li>
+                                            <li class="world"><a href="#"><img src="./img/eno.png" alt="kro">EN</a></li>
+                                            <li class="world"><a href="#"><img src="./img/cno.png" alt="kro">CN</a></li>
+                                        </ul>
+                                        <ul class="search-btn">
+                                            <li><a href="#" class="search-btn">SEARCH | LOG-IN</a></li>
+                                        </ul>
+                                    </div>
+                                </aside>
+                            </li>
+                            <li>
+                                 <nav id="nav">
+                                    <ul class="fixedclear">
+                                        <li>
+                                            <a class="menu-btn" href="#"><span class="e">BRAND</span><span class="k">브랜드</span></a>    <!-- 1 -->
+                                            <div class="sub sub1">
+                                                <ul>
+                                                    <li> <!-- 1행(TOP) -->
+                                                         <div class="sub-wrap1">
+                                                            <ul class="fixedclear">
+                                                                <li class="brand"> <!-- 1칸 -->
+                                                                    <ul>
+                                                                        <li><a class="main-btn" href="#"><span class="e">BRAND STORY</span><span class="k"> 브랜드 스토리</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><span class="e">BEAUTIFUL MOMENTS</span><span class="k">뷰티풀 모먼츠</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><span class="e">SPECIAL</span><span class="k">스페셜</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><span class="e">AD CAMPAIGN</span><span class="k">광고 캠페인</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><span class="e">EDITORIAL</span><span class="k">화보</span></a></li>
+                                                                        <li><img src="./img/menu5_200828_01.jpg" alt="menu_img_01"></li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>  
+                                                         </div> <!-- sub-wrap end -->
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="menu-btn" href="#"><span class="e">COLLECTION</span><span class="k">컬렉션</span></a>    <!-- 2 -->
+                                            <div class="sub sub2">
+                                                <ul>
+                                                    <li> <!-- 1행(TOP) -->
+                                                         <div class="sub-wrap2">
+                                                            <ul class="fixedclear">
+                                                                <li> <!-- 1칸 -->
+                                                                    <ul>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu1_1.png" alt="img1"><span class="e">SHE</span><span class="k">쉬 컬렉션</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu1_2.png" alt="img2"><span class="e">SILHOUETTE</span><span class="k">실루엣 컬렉션</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu1_3.png" alt="img3"><span class="e">HONEYMOON</span><span class="k">허니문 컬렉션</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu1_5.png" alt="img4"><span class="e">SILVER TALE</span><span class="k">실버 테일 컬렉션</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu1_6.png" alt="img5"><span class="e">WATCH</span><span class="k">워치 컬렉션</span></a></li>
+                                                                    </ul>
+                                                                </li>  
+                                                            </ul>    
+                                                         </div> <!-- sub-wrap end -->
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="menu-btn" href="#"><span class="e">ITEM</span><span class="k">아이템</span></a>    <!-- 3 -->
+                                            <div class="sub sub3">
+                                                <ul>
+                                                    <li>
+                                                         <div class="sub-menu-wrap3">
+                                                            <ul class="fixedclear">
+                                                                <li> <!-- 1행 -->
+                                                                   <ul class="txt">
+                                                                        <li><a class="main-btn" href="#"><span class="e">ALL</span><span class="k">전체상품</span></a></li>                                                                                                                               
+                                                                        <li><a class="main-btn" href="#"><span class="e">NEW ARRIVALS</span><span class="k">신상품</span></a></li>                                                                                                                              
+                                                                        <li><a class="main-btn" href="#"><span class="e">BEST</span><span class="k">인기상품</span></a></li>                                                                                                                             
+                                                                        <li><a class="main-btn" href="#"><span class="e">PROPOSE</span><span class="k">프로포즈</span></a></li>                                                                                                                                                                                                                                                             
+                                                                   </ul>  
+                                                                   <ul class="img">
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu2_1.png" alt="img1"><span class="e">NECKACE</span><span class="k">목걸이</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu2_2.png" alt="img2"><span class="e">EARRINGS</span><span class="k">귀걸이</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu2_3.png" alt="img3"><span class="e">COUPLE RING</span><span class="k">커플링</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu2_4.png" alt="img4"><span class="e">RING</span><span class="k">반지</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu2_5.png" alt="img5"><span class="e">BRACELET</span><span class="k">목걸이</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu2_6.png" alt="img6"><span class="e">ANKLET</span><span class="k">발찌</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/imgmenu2_7.png" alt="img7"><span class="e">WATCH</span><span class="k">시계</span></a></li>
+                                                                   </ul>    
+                                                                </li>
+                                                            </ul>  
+                                                         </div>   
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="menu-btn" href="#"><span class="e">ISSUE</span><span class="k">이슈</span></a>    <!-- 4 -->
+                                            <div class="sub sub4">
+                                                <ul>
+                                                    <li>
+                                                         <div class="sub-wrap4">
+                                                            <ul class="fixedclear">
+                                                                <li> <!-- 1행 img -->
+                                                                   <ul>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/menu5_200828_02.jpg" alt="issue menu1"><span class="e">STYLE</span><span class="k">스타일</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/menu5_200828_03.jpg" alt="issue menu2"><span class="e">GALLERY</span><span class="k">갤러리</span></a></li>
+                                                                        <li><a class="main-btn" href="#"><img src="./img/menu5_200213_04.jpg" alt="issue menu3"><span class="e">NEWS</span><span class="k">뉴스</span></a></li>                                                                                                                       
+                                                                   </ul>  
+                                                                </li>
+                                                            </ul>  
+                                                         </div>   
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a class="menu-btn" href="#"><span class="e">STORE</span><span class="k">매장 찾기</span></a> <!-- 5 --> 
+                                            <div class="sub sub5">
+                                                
+                                            </div>
+                                        </li>
+                                        <li>
+                                             <a class="menu-btn" href="#"><span class="e">CONTEST</span><span class="k">공모전</span></a>
+                                            <div class="sub sub6">
+                                                <ul>
+                                                    <li> <!-- 1행(TOP) -->
+                                                         <div class="sub-wrap6">
+                                                            <ul class="fixedclear">
+                                                                <li> <!-- 1칸 -->
+                                                                    <ul>
+                                                                        <li><a href="#" title="공모전 소개">공모전 소개</a></li>
+                                                                        <li><a href="#" title="공모전 요강">공모전 요강</a></li>
+                                                                        <li><a href="#" title="접수 및 확인">접수 및 확인</a></li>
+                                                                        <li><a href="#" title="커뮤니티">커뮤니티</a></li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                         </div> <!-- sub-wrap end -->
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                 </nav>   
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </header>
+
+
+    <main id="main">
+        <section id="section01" class="wheel-event">
+            <h2 class="blind">섹션1</h2>
+            <div class="wrap">
+                <div class="slide-container">
+                    <div class="slide-view">
+                        <ul class="slide-wrap">
+                            <li class="slide slide0"><a href="#"><div></div></a></li>
+                            <li class="slide slide1"><a href="#"><div></div></a></li>
+                            <li class="slide slide2"><a href="#"><div></div></a></li>
+                            <li class="slide slide3"><a href="#"><div></div></a></li>
+                        </ul>
+                    </div>  <!-- slide-view -->
+
+                    <!-- 좌우 화살버튼 -->
+                    <span class="next-btn-wrap"><a href="#" class="next-btn" title="다음슬라이드"><i class="icon-next blind">다음슬라이드</i></a></span>
+                    <span class="prev-btn-wrap"><a href="#" class="prev-btn" title="이전슬라이드"><i class="icon-prev blind">이전슬라이드</i></a></span>
+
+                    <!--  슬라이드 하단 페이지버튼 -->
+                    <ul class="page-btn-wrap">
+                       <li class="addPage"><a href="#" class="page-btn blind">페이지버튼</a></li>
+                       <li><a href="#" class="page-btn blind">페이지버튼</a></li>
+                       <li><a href="#" class="page-btn blind">페이지버튼</a></li>
+                       <li><a href="#" class="page-btn blind">페이지버튼</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="section02" class="wheel-event">
+            <div class="wrap"> <!-- 1536 가운데정렬 margin:0 auto; -->
+                <div class="content-wrap"> 
+                    <h2><a href="#">Beautiful Moments</a></h2>
+                    <h4>스톤헨지 주얼리와 함께<br> 스타일리시한 여름을 연출해보세요.</h4>
+                    <h3>NECKLACE - P1446</h3>
+                    <h5><a href="#"><img src="./img/list_P1446.png" alt="P1446"></a></h5>
+                    <ul class="img">
+                        <li><img src="./img/list_B0003.png" alt="B0003"></li>
+                        <li><img src="./img/list_F0174.png" alt="F0174"></li>
+                        <li><img src="./img/list_P1444.png" alt="P1444"></li>
+                        <li><img src="./img/list_T1608.png" alt="T1608"></li>
+                        <li><img src="./img/list_T1612.png" alt="T1612"></li>
+                    </ul>
+                    <ul class="txt">
+                        <li><a href="#">B0003</a></li>
+                        <li><a href="#">F0174</a></li>
+                        <li><a href="#">P1444</a></li>
+                        <li><a href="#">T1608</a></li>
+                        <li><a href="#">T1612</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="section03" class="wheel-event">
+            <div class="wrap"> 
+                <div class="gap"> 
+                    <div class="container"> 
+                        <div class="content-wrap"> 
+                            <div class="text-gap"> 
+                                <div class="text-wrap"> 
+                                    <a href="https://momentoflight.co.kr/">
+                                        <h3><img src="./img/main_bts02.png" alt="bts02"></h3>
+                                        <h2><img src="./img/moment_200515.png" alt="moment"></h2>
+                                        <h5>방탄소년단과 스톤헨지의 협업,<br> MOMENT OF LIGHT는 '탄생, 운명, 공존'이라는 컨셉을 통해<br> 찬란하게 빛나는 순간의 아름다움을 전달합니다.</h5>
+                                        <p>
+                                            방탄소년단 협업 제품 판매 주관은<br> 협력 업체 '실버스톤'입니다.<br> 제품 구매, 배송, 교환 및 환불 등 모든 문의사항은<br> '실버스톤' 공식 홈페이지(클릭 시 이동)<br> https://www.momentoflight.co.kroCONTACT<br> 게시판 또는 070-7701-1179로<br> 부탁드립니다.
+                                        </p>
+                                    </a>
+                                    <a href="#" class="star">진심으로 빛나는 순간을 경험하세요</a>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="section04" class="wheel-event">
+            <div class="wrap"> 
+                <div class="text-wrap"> 
+                    <ul>
+                        <li><a class="main-btn" href="#"><span class="e">Brand Story</span><span class="k">브랜드 스토리</span></a></li>
+                    </ul>
+                    <a href="#" class="txt"><h5>스톤헨지는 'Beautiful Moments' 슬로건 아래<br>클래식하고 우아한 이미지를 선보이는 주얼리 브랜드입니다.</h5></a>
+                    <a href="#" class="discover">DISCOVER MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section05" class="wheel-event">
+            <div class="wrap"> 
+                <div class="text-wrap"> 
+                    <ul>
+                        <li><a class="main-btn" href="#"><span class="e">Watch Collection</span><span class="k">워치 컬렉션</span></a></li>
+                    </ul>
+                    <a href="#" class="txt"><h5>클래식하고 여성스러운 디자인이<br>특징인 워치 컬렉션을 만나보세요.</h5></a>
+                    <a href="#" class="discover">DISCOVER MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section06" class="wheel-event">
+            <h2 class="blind">섹션6</h2>
+            <div class="wrap">  <!-- 전체너비 -->
+                <div class="container">  <!--  여백 뺀 실제 이미지 넣을 박스 -->
+                    <ul class="gallery fixedclear">
+                        <li>
+                            <div>
+                                <a href="#" title="gallery" class="gallery-img-btn">                          
+                                    <img src="./img/consulting_200828-1.jpg" alt=""> 
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" title="text" class="text-btn">사이즈 가이드</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" title="gallery" class="gallery-img-btn">                          
+                                    <img src="./img/consulting_200828-2.jpg" alt=""> 
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" title="text" class="text-btn">개인 상담</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" title="text" class="text-btn">인그레이빙</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" title="gallery" class="gallery-img-btn">                          
+                                    <img src="./img/consulting_200828-3.jpg" alt=""> 
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" title="text" class="text-btn">선물 포장</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" title="gallery" class="gallery-img-btn">                          
+                                    <img src="./img/insta6.jpg" alt=""> 
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="section07" class="wheel-event">
+            <div class="wrap">
+                <div class="container">
+                        <div class="title">
+
+                            <h2>CONNECT WITH STONEHENgE</h2>
+                        </div>
+
+                        <div class="content">
+
+                        <ul class="icons">
+                            <li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>  
+                            <li><a href="#" title="instagram"><i class="fab fa-instagram"></i></a></li>  
+                            <li><a href="#" title="youtube"><i class="fab fa-youtube"></i></a></li>  
+                            <li><a href="#" title="blog"><i class="fas fa-blog"></i></a></li>  
+                            <li><a href="#" title="linkedin"><img src="./img/kakaoTalk.png" alt=""></a></li>  
+                        </ul>
+
+                        
+                        <ul class="connect fixedclear">
+                            <li>
+                                <div>
+                                    <a href="#" title="connect" class="connect-img-btn">                          
+                                        <img src="./img/connect_01.jpg" alt=""> 
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#" title="connect" class="connect-img-btn">                          
+                                        <img src="./img/connect_02.jpg" alt=""> 
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#" title="connect" class="connect-img-btn">                          
+                                        <img src="./img/connect_03.jpg" alt=""> 
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#" title="connect" class="connect-img-btn">                          
+                                        <img src="./img/connect_04.jpg" alt=""> 
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#" title="connect" class="connect-img-btn">                          
+                                        <img src="./img/connect_05.jpg" alt=""> 
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#" title="connect" class="connect-img-btn">                          
+                                        <img src="./img/connect_06.jpg" alt=""> 
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section08" class="wheel-event">
+            <div class="wrap"> 
+                <div class="text-wrap"> 
+                    <h3>뉴스레터 가입</h3>
+                    <h5>가장 먼저 스톤헨지의 소식을 받아보세요!</h5>
+                    <input type="search" id="fsearch" name="fsearch" value="E-MAIL">
+                    <span>
+                        <input type="checkbox" name="fcheckbox1" id="agree" value="스톤헨지 뉴스레터 개인정보 이용동의">
+                        <label for="agree">스톤헨지 뉴스레터 개인정보 이용동의 <a href="#">(약관 보기)</a></label>
+                    </span>
+                    <a href="#" class="subscribe">SUBSCRIBE</a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer id="footer" class="wheel-event">
+        <div class="row row1">
+            <div class="wrap">
+                <ul class="fixedclear">
+                    <li>
+                        <dl>
+                            <dt><a href="#" title="CUSTOMER SERVICE">CUSTOMER SERVICE</a></dt>
+                            <dd><a href="#" title="FAQ">FAQ</a></dd>
+                            <dd><a href="#" title="A/S Info">A/S Info</a></dd>
+                            <dd><a href="#" title="Site Map">Site Map</a></dd>
+                            <dd><a href="#" title="Contact us">Contact us</a></dd>
+                            <dd><a href="#" title="Find A Store">Find A Store</a></dd>
+                            <dd><a href="#" title="Leave a Message">Leave a Message</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#" title="OUR COMPANY">OUR COMPANY</a></dt>
+                            <dd><a href="#" title="Company info">Company info</a></dd>
+                            <dd><a href="#" title="CEO Message">CEO Message</a></dd>
+                            <dd><a href="#" title="Social Responsibility">Social Responsibility</a></dd>
+                            <dd><a href="#" title="Core Value">Core Value</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#" title="">FAMILY SITE</a></dt>
+                            <dd><a href="#" title="">GALLERY O'CLOCK</a></dd>
+                            <dd><a href="#" title="">TROIS ROIS</a></dd>
+                            <dd><a href="#" title="">ROSEMONT</a></dd>
+                            <dd><a href="#" title="">·PATEK PHILIPPE</a></dd>
+                            <dd><a href="#" title="">·CHOPARD</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt><a href="#" title="LEGAL & COOKIES">LEGAL & COOKIES</a></dt>
+                            <dd><a href="#" title="Terms Of Use">Terms Of Use</a></dd>
+                            <dd><a href="#" title="Privacy Policy">Privacy Policy</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row row2">
+            <div class="wrap">
+                <ul>
+                    <li>
+                        <span>(주)우림에프엔지</span>
+                    </li>
+                    <li>
+                        <address>
+                            <span>대표이사 : 김윤호</span>
+                            <span>사업자등록번호 : 108-86-09008</span>
+                            <span>고객센터 : 02-3284-1300</span>
+                            <span>주소 : 서울특별시 동작구 보라매로 5길 15 전문건설회관 10층.23층 우림FMG</span>
+                        </address>
+                    </li>
+                    <li>
+                        <span>
+                            &copy; 2018 STONEHENgE Jewelry. All Rights Reserved.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- 고탑메뉴 -->
+    <div class="goTop">
+        <span>
+            <a href="#section01" class="goTop-btn">
+                <span class="arrow-up">
+                   <span class="text-top">TOP</span>
+                </span>
+            </a>
+        </span>
+    </div>
+
+
+
+
+            <!-- 스크롤바 -->
+
+            <div class="scroll-btn-wrap">
+                <ul class="scroll-btn-wrap">
+                    <li class="addPage"><a href="#section01" class="scroll-btn blind smooth-btn">Stone Henge</a></li>
+                    <li><a href="#section02" class="scroll-btn blind">Beautiful Moment</a></li>
+                    <li><a href="#section03" class="scroll-btn blind">Moment of Light</a></li>
+                    <li><a href="#section04" class="scroll-btn blind">Brand Story</a></li>
+                    <li><a href="#section05" class="scroll-btn blind">Watch Collection</a></li>
+                    <li><a href="#section06" class="scroll-btn blind">Gallery</a></li>
+                    <li><a href="#section07" class="scroll-btn blind">CONNECT WITH STONEHENgE 뉴스레터</a></li>
+                </ul>
+            </div>
+    
+
+            <div class="w3c-html5">
+<!--                 <p>
+                    <a href="http://validator.kldp.org/check?uri=referer"
+                      onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+                      src="//validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+                  </p> -->
+                  <p>
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="http://jigsaw.w3.org/css-validator/images/vcss"
+                            alt="올바른 CSS입니다!" />
+                    </a>
+                </p>                
+            </div>
+
+
+
+
+
+
+    <script src="./js/stoneHenge.js"></script>
+
+
+</div>
+
+<!--                     <div class="w3c-html5">
+                    <p>
+                        <a href="http://validator.kldp.org/check?uri=referer"
+                          onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+                          src="//validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+                      </p>
+                      <p>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                alt="올바른 CSS입니다!" />
+                        </a>
+                    </p>                
+                </div> -->
+</body>
+</html>
